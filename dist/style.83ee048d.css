@@ -1,0 +1,181 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+@import url('//fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+html {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background: #101010;
+  margin: 0;
+  height: 100%;
+  color: #a0a0a0;
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+}
+a:link,
+a:visited {
+  color: #dc3647;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+.crisp-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.crisp-sidebar {
+  width: 300px;
+}
+.crisp-nav {
+  display: flex;
+  align-items: center;
+  background: #000;
+  height: 50px;
+  padding: 0 30px;
+  color: #a0a0a0;
+}
+.crisp-nav .sidebar-toggle {
+  margin-right: 20px;
+}
+.crisp-nav .main-logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.inner-wrapper {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+}
+.cytoscape-container {
+  width: 100%;
+  height: 100%;
+  background: #333738;
+}
+.flex-box {
+  display: flex;
+}
+.flex-box.flex-box--center {
+  align-items: center;
+}
+.flex-cell-right {
+  margin-left: auto;
+}
+.writing-pane {
+  background: #000;
+  width: 140px;
+}
+.writing-pane .cxtmenu-options-list .cxtmenu-option {
+  color: #fff;
+  padding: 5px 10px;
+  border-bottom: 1px solid #606060;
+}
+.writing-pane .cxtmenu-options-list .cxtmenu-option:hover {
+  background: #202020;
+  cursor: pointer;
+}
+.writing-pane .cxtmenu-options-list .cxtmenu-option:last-child {
+  border-bottom: 0;
+}
+.main-header {
+  background: #202020;
+  padding: 20px 0;
+}
+.main-header .logo img {
+  max-height: 30px;
+}
+.main-header ul.header-nav {
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.main-header ul.header-nav .header-nav__item {
+  padding: 10px;
+}
+.main-header ul.header-nav .header-nav__item a:link,
+.main-header ul.header-nav .header-nav__item a:visited {
+  color: #fff;
+  font-weight: bold;
+}
+.main-header ul.header-nav .header-nav__item a:hover {
+  color: #dc3647;
+}
+.modal-wrapper .modal-mask {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 8;
+}
+.modal-wrapper .modal-container {
+  background: #323537;
+  width: 500px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto 0 auto;
+  color: #a0a0a0;
+  z-index: 9;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.65);
+  border-radius: 2px;
+}
+.modal-wrapper .modal-container .modal-container__heading {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.modal-wrapper .modal-container .modal-container__body {
+  padding: 10px;
+}
+.modal-wrapper .modal-container .modal-container__controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.modal-wrapper .modal-container .modal-close {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn {
+  background: #439dea;
+  border: 0;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: #fff;
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn.btn--alt {
+  background: #808080;
+}
+.push-right-5 {
+  margin-right: 5px;
+}
+.push-right-10 {
+  margin-right: 10px;
+}
+
+
+/*# sourceMappingURL=/style.83ee048d.css.map */

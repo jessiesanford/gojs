@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a:link,
+a:visited {
+  color: #dc3647;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+.flex-box {
+  display: flex;
+}
+.flex-box.flex-box--center {
+  align-items: center;
+}
+.flex-cell-right {
+  margin-left: auto;
+}
+.main-header {
+  background: #202020;
+  padding: 20px 0;
+}
+.main-header .logo img {
+  max-height: 30px;
+}
+.main-header ul.header-nav {
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.main-header ul.header-nav .header-nav__item {
+  padding: 10px;
+}
+.main-header ul.header-nav .header-nav__item a:link,
+.main-header ul.header-nav .header-nav__item a:visited {
+  color: #fff;
+  font-weight: bold;
+}
+.main-header ul.header-nav .header-nav__item a:hover {
+  color: #dc3647;
+}
